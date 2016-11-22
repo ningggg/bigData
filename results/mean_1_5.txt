@@ -1,5 +1,5 @@
 learning_rate = 0.1
-ml.tf_mean_train(learning_rate=learning_rate, test=False, mode=mode, loops=1000)
+ml.tf_train(learning_rate=learning_rate, test=False, mode=mode, loops=1000)
 
 
 percent test accuracy 0.584999978542, loop: 10
@@ -209,7 +209,7 @@ percent test accuracy 0.860000014305, loop: 1001
 
 
 learning_rate = 0.05
-ml.tf_mean_train(learning_rate=learning_rate, test=False, mode=mode, loops=1000)
+ml.tf_train(learning_rate=learning_rate, test=False, mode=mode, loops=1000)
 
 
 percent test accuracy 0.860000014305, loop: 10
@@ -321,7 +321,7 @@ percent test accuracy 0.860000014305, loop: 1001
 
 Using [1,2], [4,5] trained W, and b
 learning_rate = 0.1
-ml.tf_mean_train(learning_rate=learning_rate, test=False, mode=mode, loops=1000)
+ml.tf_train(learning_rate=learning_rate, test=False, mode=mode, loops=1000)
 
 
 percent test accuracy 0.879999995232, loop: 10

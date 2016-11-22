@@ -231,7 +231,7 @@ def next_batch(size, test, model, mode):
   return [np.array(mean_batch), np.array(rating_batch)]
 
 
-def tf_mean_train(test=True, learning_rate=0.5, mode=myconstants.Mode.MODE_MEAN, loops=1000):
+def tf_train(test=True, learning_rate=0.5, mode=myconstants.Mode.MODE_MEAN, loops=1000):
   accuracy_path = get_constant('ACCURACY_PATH', test)
   w2v_model_path = get_constant('W2V_MODEL_PATH', test)
   d2v_model_path = get_constant('D2V_MODEL_PATH', test)
