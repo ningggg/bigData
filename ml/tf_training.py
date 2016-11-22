@@ -267,6 +267,7 @@ def tf_train(test=True, learning_rate=0.5, mode=myconstants.Mode.MODE_MEAN, loop
     except:
       W = tf.Variable(tf.truncated_normal([vec_dim, TOTAL_CLASSES]))
       b = tf.Variable(tf.truncated_normal([TOTAL_CLASSES]))
+      print('New {}: {}'.format(mode, myconstants.CLASSES))
 
     x = tf.placeholder(tf.float32, [None, vec_dim])
     y = tf.matmul(x, W) + b
