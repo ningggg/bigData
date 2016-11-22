@@ -299,6 +299,7 @@ def tf_train(test=True, learning_rate=0.5, mode=myconstants.Mode.MODE_MEAN, loop
         print(print_value)
       count += 1
 
+    print('{}: {}'.format(mode, myconstants.CLASSES))
     np.save(get_save_name(myconstants.NUMPY_W, mode), sess.run(W))
     np.save(get_save_name(myconstants.NUMPY_B, mode), sess.run(b))
 
