@@ -94,10 +94,9 @@ ENV/
 
 
 # Huge DataBase
-database/
-.json
-
-# W2V D2V Model
-
-
+review80000_5.json
+reviews_Electronics_5.json
+test_database.json
+train_data.json
+reviews.txt
 
