@@ -94,13 +94,14 @@ ENV/
 
 
 # Huge DataBase
-review80000_5.json
-reviews_Electronics_5.json
-test_database.json
-train_data.json
-reviews.txt
+database/review80000_5.json
+database/reviews_Electronics_5.json
+database/reviews.txt
+database/train_data.json
+database/test_database.json
 
 
+# Huge Models
 doc2vec/d2v_model.docvecs.doctag_syn0.npy
 doc2vec/d2v_model.syn0.npy
 doc2vec/d2v_model.syn1.npy
