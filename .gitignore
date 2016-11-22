@@ -99,8 +99,6 @@ database/
 
 # W2V D2V Model
 word2vec/
-doc2vec/
-w2v_model
-w2v_model.txt
+
 
 
