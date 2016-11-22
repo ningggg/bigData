@@ -100,3 +100,11 @@ test_database.json
 train_data.json
 reviews.txt
 
+
+doc2vec/d2v_model.docvecs.doctag_syn0.npy
+doc2vec/d2v_model.syn0.npy
+doc2vec/d2v_model.syn1.npy
+doc2vec/d2v_model_original
+word2vec/w2v_model.syn0.npy
+word2vec/w2v_model.syn1neg.npy
+word2vec/w2v_model.txt
