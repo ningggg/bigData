@@ -98,7 +98,6 @@ database/
 .json
 
 # W2V D2V Model
-word2vec/
 
 
 
