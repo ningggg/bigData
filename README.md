@@ -19,7 +19,7 @@ https://drive.google.com/drive/folders/0ByehYI2Lxf1nQWZTQ05LbzV2SGM
 
 
 
-Note: Please Keep the folder structure the same as below, otherwise you might get unexpected Errors
+Note: Please Keep the folder structure the same as below, otherwise you might get unexpected Errors(Read this structure in your text editor)
 
 --Folder structure:
 
