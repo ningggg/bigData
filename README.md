@@ -2,7 +2,7 @@
 big data course project
 
 
-1. Please download the database "reviews_Electronics_5.json.gz" in our google drive, link below
+1. Please download the database and models from our google drive, link below
 
 https://drive.google.com/drive/folders/0ByehYI2Lxf1nQWZTQ05LbzV2SGM
 
