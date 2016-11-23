@@ -23,7 +23,7 @@ Note: Please Keep the folder structure the same as below, otherwise you might ge
 
 --Folder structure:
 
-code
+bigData
   myconstants.py
   preprocess.py
   tf_train.py
